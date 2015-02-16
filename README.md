@@ -102,7 +102,7 @@ es.get('tweets/tweet/_search', data={
 
 Search for a document with a JSON string
 ```python
-es.get('tweets,blogs/_search', data="""
+es.get('tweets/blogs/_search', data="""
 {
     "query" : {
         "match_all" : {}
